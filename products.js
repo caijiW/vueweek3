@@ -76,7 +76,6 @@ const app = {
             let method = 'post';
             let site = `${this.url}api/${this.path}/admin/product`;
            if(!this.isNew){
-                console.log('編輯');
                 method = 'put';
                 site = `${this.url}api/${this.path}/admin/product/${this.productTemp.id}`;
             }
